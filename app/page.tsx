@@ -1,3 +1,4 @@
+import { PaginationDemo } from "./components/pagination";
 
 
 export default function Home() {
@@ -35,8 +36,8 @@ export default function Home() {
             </button>
           </div>
         </div>
+        <PaginationDemo />
       </div>
-
     </main>
   );
 }
